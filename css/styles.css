@@ -1,0 +1,99 @@
+
+
+*, *:before, *:after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	font-family: "Palatino Linotype", "Times New Roman", serif;
+}
+
+.main-content {
+	margin-bottom: 12px;
+}
+
+.logo-image, .hero-image, .friend-image {
+	height: auto;
+	max-width: 100%
+}
+
+.header-content {
+	text-align: center;
+	margin-bottom: 28px;
+}
+
+.header-logo-content {
+	margin: 10px 12px 10px 12px;
+}
+
+.header-title {
+	color: #bc5a45;
+	margin-bottom: 12px;
+}
+
+.header-text{
+	color: #bd5734;
+}
+
+.hero-content {
+	text-align: center;
+	margin-bottom: 28px;
+}
+
+.featured-content {
+	margin-top: 12px;
+}
+
+.featured-title {
+	color: #674d3c;
+	text-align: center;
+	margin-bottom: 12px;
+}
+
+.friend-info {
+	text-align: center;
+	margin-bottom: 28px;
+	margin: 8px 8px 23px 8px;
+}
+
+.friend-name {
+	color: #7a3b2e;
+}
+
+.friend-link {
+	font-family: Calibri, Arial, sans-serif;
+}
+
+/* Responsive CSS */
+
+@media screen and (min-width: 480px) {
+
+	.featured-friends, .header-content {
+		display: flex;
+	}
+
+	.friend-image {
+		width: 100%;
+	}
+
+	.header-info-content {
+  		display: flex;
+  		justify-content: center;
+  		flex-direction: column;
+  		text-align: center;
+  		margin: 12px 10px 10px 12px;
+		}
+}
+
+@media screen and (min-width: 800px) {
+
+	.featured-friends, .header-content {
+
+		width: 800px;
+		margin-left: auto;
+		margin-right: auto;
+		}
+}
+
